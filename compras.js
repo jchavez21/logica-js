@@ -4,3 +4,7 @@ for (let i = 0; i < compras.length; i++){
     console.log("Producto " + (i + 1) + ": "  + compras[i]);
 
 }
+
+for (const producto of compras) {
+    console.log(producto);
+}
