@@ -10,7 +10,7 @@ let resto = cambio;
 const billetes10000 = Math.floor(resto / 10000);
 resto = resto % 10000;
 
-const billetes5000 = Math.floor(resto / 5000);66
+const billetes5000 = Math.floor(resto / 5000);
 resto = resto % 5000;
 
 const billetes2000 = Math.floor(resto / 2000);
